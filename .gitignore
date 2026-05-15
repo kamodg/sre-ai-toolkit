@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# API keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+config.local.*
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.coveragerc
+nosetests.xml
+test-results/
+
+# Type checking
+.mypy_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Linting
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.fseventsd/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+.project
+.settings/
+
+# Generated output files
+*.log
+logs/
+output/
+generated/
+runbooks/
+postmortems/
+
+# Distribution / packaging
+*.tar.gz
+*.zip
